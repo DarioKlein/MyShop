@@ -25,7 +25,7 @@ export function Header() {
       return
     }
 
-    dispatch(logout({}))
+    dispatch(logout())
   }
 
   console.log(user)
